@@ -41,7 +41,7 @@ Llevé a cabo la elaboración de este dashboard interactivo que analiza el compo
 - **Cantidad de clientes por cantidad de órdenes** - distribución de clientes según número de compras realizadas.
 - **Clientes con mayor generación de ganancias** - top clientes por rentabilidad.
 - **Clientes con mayor cantidad de pedidos** - top clientes por volumen de órdenes.
-- **Clientes con mayor cancelación de órdenes** - clientes con más partes canceladas (riesgo operativo).
+- **Clientes con mayor cancelación de órdenes** - clientes con más órdenes canceladas (riesgo operativo).
 - **Clientes con mayor generación de pérdidas** - clientes que más impactan negativamente en la rentabilidad.
 
 → Cada visualización cuenta con **filtro interactivo por año (2020–2023)**, lo que permite explorar el comportamiento de un período específico sin necesidad de duplicar el análisis.
