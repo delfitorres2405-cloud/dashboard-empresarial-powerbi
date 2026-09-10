@@ -7,7 +7,7 @@ Proyecto de Business Intelligence en Power BI con dashboards interactivos sobre 
 
 ## Descripción General
 
-Llevé a cabo la elaboración de este dashboard interactivo que analiza el comportamiento de los clientes de una empresa entre 2020 y 2023. El objetivo de este es entender quiénes son los clientes que aportan mayor al negocio y qué proporción representan, cómo compran, qué tan fieles son y qué clientes manifiestan ser un riesgo para el negocio (por cancelaciones o pérdidas), para apoyar decisiones comerciales orientadas a retención y rentabilidad.
+Llevé a cabo la elaboración de este dashboard interactivo que analiza el comportamiento de los clientes de una empresa entre 2020 y 2023. El objetivo de este es entender quiénes son los clientes que aportan mayor valor al negocio y qué proporción representan, cómo compran, qué tan fieles son y qué clientes manifiestan ser un riesgo para el negocio (por cancelaciones o pérdidas), para apoyar decisiones comerciales orientadas a retención y rentabilidad.
 
 ## Objetivo del Análisis
 
