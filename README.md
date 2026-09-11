@@ -33,7 +33,7 @@ Primero importé al software la fuente de datos que, como mencioné antes, es un
 - Filtrado: eliminé las columnas que tenían muchos datos faltantes o que no aportaban información relevante al análisis y eliminé filas vacías.
 - Deduplicación: borré las filas duplicadas.
 - Manejo de valores faltantes: convertí los datos faltantes de las columnas numéricas a 0.
-- Estandarización de texto: estandaricé los nombres de los clientes, eliminando espacios de más y pasando todo el texto a mayúscula, para evitar que un mismo cliente quede registrado de formas distintas.
+- Estandarización de texto: estandaricé los nombres de los clientes, eliminando espacios de más y pasando todo el texto a mayúscula, para evitar que un mismo cliente quede registrado de formas distintas (antes de publicar el dashboard, anonimicé los nombres de los clientes reemplazándolos por códigos genéricos (Cliente_001, Cliente_002, etc.).
 - Formateo de tipos de dato: revisé que el tipo de dato asignado automáticamente por Power BI a cada columna fuera el correcto, y en los casos en que no lo era, lo corregí. 
 
 Todo este proceso lo realicé en **Power Query** antes de cargar los datos al modelo, por lo que se trata de un proceso **ETL (Extract, Transform, Load)**: primero extraje los datos del archivo original, luego los transformé aplicando los pasos mencionados, y recién al final los cargué al modelo de Power BI preparados para el análisis.
