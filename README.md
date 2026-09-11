@@ -19,10 +19,24 @@ Llevé a cabo la elaboración de este dashboard interactivo que analiza el compo
 
 ## Fuente de Datos y Herramientas
 
+- **Limpieza y transformación de datos:** Power Query
 - **Herramienta de visualización:** Power BI
 - **Fuente de datos:** Archivo .xlsb
 - **Período cubierto:** 2020 – 2023 
 - **Registros analizados:** 2521 clientes
+
+## Proceso de limpieza y transformación de datos
+Antes de detallar los KPIs elegidos para el dashboard, las visualizaciones presentadas y los insights clave, quiero comentar brevemente cómo fue el proceso de preparación de los datos para el posterior análisis.
+
+Primero importé al software la fuente de datos que, como mencioné antes, es un archivo .xlsb con varias hojas, donde cada una representa las ventas de un año de la empresa.  
+- Unificación: como tenía una hoja por año, unifiqué todas las tablas en una sola para poder trabajar con la información de forma conjunta.
+- Filtrado: eliminé las columnas que tenían muchos datos faltantes o que no aportaban información relevante al análisis y eliminé filas vacías.
+- Deduplicación: borré las filas duplicadas.
+- Manejo de valores faltantes: convertí los datos faltantes de las columnas numéricas a 0.
+- Estandarización de texto: estandaricé los nombres de los clientes, eliminando espacios de más y pasando todo el texto a mayúscula, para evitar que un mismo cliente quede registrado de formas distintas.
+- Formateo de tipos de dato: revisé que el tipo de dato asignado automáticamente por Power BI a cada columna fuera el correcto, y en los casos en que no lo era, lo corregí. 
+
+Todo este proceso lo realicé en **Power Query** antes de cargar los datos al modelo, por lo que se trata de un proceso **ETL (Extract, Transform, Load)**: primero extraje los datos del archivo original, luego los transformé aplicando los pasos mencionados, y recién al final los cargué al modelo de Power BI preparados para el análisis.
 
 ## KPIs Principales
 
